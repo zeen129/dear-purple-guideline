@@ -1,35 +1,576 @@
 <!doctype html>
 <html lang="ko">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#241238">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#241238">
 <title>Dear Purple | 참여 방법</title>
+
 <style>
-:root{--ink:#251238;--purple:#7138a8;--violet:#a46bd4;--pink:#ef2d83;--lav:#f3e8fc;--muted:#756a80;--line:#e7d8f2}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 8% 8%,#f4e8ff 0,transparent 28%),#faf8fc;color:var(--ink);font-family:Arial,'Apple SD Gothic Neo','Malgun Gothic',sans-serif;line-height:1.65}.wrap{max-width:1040px;margin:auto;padding:26px 18px 56px}.hero{position:relative;overflow:hidden;border-radius:26px;padding:34px 30px;background:linear-gradient(125deg,#21102f,#482268 62%,#7846a2);color:#fff;box-shadow:0 14px 36px #34204a20}.eyebrow{font-size:12px;letter-spacing:.16em;color:#ddc9f4;font-weight:700}h1{font-size:clamp(34px,7vw,54px);line-height:1.08;letter-spacing:-.04em;margin:12px 0 8px}.sub{margin:0;color:#f0e8fa;font-size:17px}.heart{position:absolute;right:30px;top:15px;font-size:88px;color:#ffffff20;transform:rotate(12deg)}.intro{margin:22px 2px 0;color:#65566f;font-size:15px}.tabs{display:flex;gap:10px;margin:26px 0 20px;padding:7px;background:#eee5f5;border-radius:16px;max-width:430px}.tab{border:0;border-radius:12px;padding:12px 26px;background:transparent;color:#665276;font-weight:800;font-size:16px;cursor:pointer;flex:1}.tab[aria-selected=true]{background:linear-gradient(135deg,#7138a8,#965cc4);color:white;box-shadow:0 5px 14px #7138a833}.panel[hidden]{display:none}.section-head{display:flex;align-items:center;justify-content:space-between;gap:14px;margin:26px 0 17px}.section-head h2{font-size:24px;letter-spacing:-.03em;margin:0}.pill{background:#f7e6f0;color:#bd286f;border-radius:999px;padding:6px 12px;font-size:12px;font-weight:800;white-space:nowrap}.steps{display:grid;gap:18px}.step{display:grid;grid-template-columns:minmax(0,1fr) minmax(300px,.95fr);gap:22px;align-items:center;padding:22px;background:#fff;border:1px solid var(--line);border-radius:21px;box-shadow:0 6px 22px #33204a08}.step-copy{display:flex;gap:14px;align-items:flex-start}.bubble{width:42px;height:42px;display:grid;place-items:center;flex:none;border-radius:50%;background:linear-gradient(135deg,#7138a8,#a46bd4);color:#fff;font-weight:800;font-size:20px;box-shadow:0 4px 12px #7138a833}h3{font-size:20px;margin:1px 0 7px;letter-spacing:-.03em}.step p{margin:0;color:#5e5368;font-size:15px;word-break:keep-all}.step p strong{color:#4e2678}.image-frame{overflow:hidden;border-radius:15px;background:#f6f0fa;border:1px solid #eee4f5}.image-frame img{display:block;width:100%;height:auto;object-fit:contain}.tip{margin-top:22px;padding:17px 20px;border-radius:16px;background:#f2eafb;color:#604477;font-size:14px}.footer{text-align:center;color:var(--muted);font-size:12px;margin-top:30px}
-@media(max-width:700px){.wrap{padding:13px 12px 38px}.hero{padding:27px 21px;border-radius:21px}.heart{right:14px;top:15px;font-size:62px}.sub{font-size:15px}.tabs{max-width:none}.tab{padding:11px 10px}.section-head h2{font-size:20px}.step{grid-template-columns:1fr;padding:17px;gap:14px}.step-copy{gap:11px}.bubble{width:36px;height:36px;font-size:17px}h3{font-size:18px}.step p{font-size:14px}.image-frame{max-width:100%}}
-</style></head><body><main class="wrap">
-<header class="hero"><div class="eyebrow">FEDEX KOREA · 2026 CAMPAIGN</div><h1>Dear Purple 💜</h1><p class="sub">올 한 해도 함께 달려온 우리! 고마웠던 동료에게 따뜻한 칭찬을 배송해 보아요.</p><div class="heart" aria-hidden="true">♡</div></header>
-<p class="intro">사용하시는 기기에 맞는 안내를 선택해 주세요. 각 단계의 화면을 보며 차근차근 따라 할 수 있어요.</p>
-  <div class="tip">
-  <strong>💜 주의사항 💜</strong>
-  <ul style="list-style:none; padding-left:0; margin-bottom:10px;">
-    <li>🟣 1인당 최대 3개의 칭찬글을 작성할 수 있습니다.</li>
-    <li style="margin-top:8px;">
-      🟣 비로그인 상태로 작성하시면 수정 및 삭제가 어렵습니다.
-      기존 글 삭제가 필요한 경우 관리자
-      (<strong>jihyun.kim.osv@fedex.com</strong>)에게 요청해 주세요.
-    </li>
-  </ul>
-  <strong>💌 서로를 향한 따뜻한 칭찬을 남겨주세요! 💜</strong>
+:root{
+--ink:#251238;
+--purple:#7138a8;
+--violet:#a46bd4;
+--pink:#ef2d83;
+--lav:#f3e8fc;
+--muted:#756a80;
+--line:#e7d8f2
+}
+
+*{box-sizing:border-box}
+
+body{
+margin:0;
+background:radial-gradient(circle at 8% 8%,#f4e8ff 0,transparent 28%),#faf8fc;
+color:var(--ink);
+font-family:Arial,'Apple SD Gothic Neo','Malgun Gothic',sans-serif;
+line-height:1.65
+}
+
+.wrap{
+max-width:1040px;
+margin:auto;
+padding:26px 18px 56px
+}
+
+.hero{
+position:relative;
+overflow:hidden;
+border-radius:26px;
+padding:34px 30px;
+background:linear-gradient(125deg,#21102f,#482268 62%,#7846a2);
+color:#fff;
+box-shadow:0 14px 36px #34204a20
+}
+
+.eyebrow{
+font-size:12px;
+letter-spacing:.16em;
+color:#ddc9f4;
+font-weight:700
+}
+
+h1{
+font-size:clamp(34px,7vw,54px);
+line-height:1.08;
+letter-spacing:-.04em;
+margin:12px 0 8px
+}
+
+.sub{
+margin:0;
+color:#f0e8fa;
+font-size:17px
+}
+
+.heart{
+position:absolute;
+right:30px;
+top:15px;
+font-size:88px;
+color:#ffffff20;
+transform:rotate(12deg)
+}
+
+.intro{
+margin:22px 2px 0;
+color:#65566f;
+font-size:15px
+}
+
+/* 상단 탭 */
+.tabs{
+display:flex;
+gap:10px;
+margin:26px 0 20px;
+padding:7px;
+background:#eee5f5;
+border-radius:16px;
+max-width:560px
+}
+
+.tab{
+border:0;
+border-radius:12px;
+padding:12px 20px;
+background:transparent;
+color:#665276;
+font-weight:800;
+font-size:16px;
+cursor:pointer;
+flex:1
+}
+
+.tab[aria-selected=true]{
+background:linear-gradient(135deg,#7138a8,#965cc4);
+color:white;
+box-shadow:0 5px 14px #7138a833
+}
+
+.panel[hidden]{
+display:none
+}
+
+.section-head{
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:14px;
+margin:26px 0 17px
+}
+
+.section-head h2{
+font-size:24px;
+letter-spacing:-.03em;
+margin:0
+}
+
+.pill{
+background:#f7e6f0;
+color:#bd286f;
+border-radius:999px;
+padding:6px 12px;
+font-size:12px;
+font-weight:800;
+white-space:nowrap
+}
+
+/* Guide 포스터 */
+.guide-image{
+width:100%;
+max-width:850px;
+margin:0 auto;
+background:#fff
+}
+
+.guide-image img{
+display:block;
+width:100%;
+height:auto;
+object-fit:contain
+}
+
+/* PC / 모바일 안내 */
+.steps{
+display:grid;
+gap:18px
+}
+
+.step{
+display:grid;
+grid-template-columns:minmax(0,1fr) minmax(300px,.95fr);
+gap:22px;
+align-items:center;
+padding:22px;
+background:#fff;
+border:1px solid var(--line);
+border-radius:21px;
+box-shadow:0 6px 22px #33204a08
+}
+
+.step-copy{
+display:flex;
+gap:14px;
+align-items:flex-start
+}
+
+.bubble{
+width:42px;
+height:42px;
+display:grid;
+place-items:center;
+flex:none;
+border-radius:50%;
+background:linear-gradient(135deg,#7138a8,#a46bd4);
+color:#fff;
+font-weight:800;
+font-size:20px;
+box-shadow:0 4px 12px #7138a833
+}
+
+h3{
+font-size:20px;
+margin:1px 0 7px;
+letter-spacing:-.03em
+}
+
+.step p{
+margin:0;
+color:#5e5368;
+font-size:15px;
+word-break:keep-all
+}
+
+.step p strong{
+color:#4e2678
+}
+
+.image-frame{
+overflow:hidden;
+border-radius:15px;
+background:#f6f0fa;
+border:1px solid #eee4f5
+}
+
+.image-frame img{
+display:block;
+width:100%;
+height:auto;
+object-fit:contain
+}
+
+.tip{
+margin-top:22px;
+padding:17px 20px;
+border-radius:16px;
+background:#f2eafb;
+color:#604477;
+font-size:14px
+}
+
+.footer{
+text-align:center;
+color:var(--muted);
+font-size:12px;
+margin-top:30px
+}
+
+/* 모바일 화면 */
+@media(max-width:700px){
+
+.wrap{
+padding:13px 12px 38px
+}
+
+.hero{
+padding:27px 21px;
+border-radius:21px
+}
+
+.heart{
+right:14px;
+top:15px;
+font-size:62px
+}
+
+.sub{
+font-size:15px
+}
+
+.tabs{
+max-width:none;
+gap:5px;
+padding:6px
+}
+
+.tab{
+padding:11px 5px;
+font-size:14px
+}
+
+.section-head h2{
+font-size:20px
+}
+
+.step{
+grid-template-columns:1fr;
+padding:17px;
+gap:14px
+}
+
+.step-copy{
+gap:11px
+}
+
+.bubble{
+width:36px;
+height:36px;
+font-size:17px
+}
+
+h3{
+font-size:18px
+}
+
+.step p{
+font-size:14px
+}
+
+.image-frame{
+max-width:100%
+}
+
+.guide-image{
+width:100%
+}
+
+}
+</style>
+</head>
+
+<body>
+<main class="wrap">
+
+<header class="hero">
+<div class="eyebrow">FEDEX KOREA · 2026 CAMPAIGN</div>
+<h1>Dear Purple 💜</h1>
+<p class="sub">
+올 한 해도 함께 달려온 우리! 고마웠던 동료에게 따뜻한 칭찬을 배송해 보아요.
+</p>
+<div class="heart" aria-hidden="true">♡</div>
+</header>
+
+<p class="intro">
+사용하시는 기기에 맞는 안내를 선택해 주세요. 각 단계의 화면을 보며 차근차근 따라 할 수 있어요.
+</p>
+
+<div class="tip">
+<strong>💜 주의사항 💜</strong>
+<ul style="list-style:none; padding-left:0; margin-bottom:10px;">
+<li>🟣 1인당 최대 3개의 칭찬글을 작성할 수 있습니다.</li>
+<li style="margin-top:8px;">
+🟣 비로그인 상태로 작성하시면 수정 및 삭제가 어렵습니다.
+기존 글 삭제가 필요한 경우 관리자
+(<strong>jihyun.kim.osv@fedex.com</strong>)에게 요청해 주세요.
+</li>
+</ul>
+<strong>💌 서로를 향한 따뜻한 칭찬을 남겨주세요! 💜</strong>
 </div>
-<nav class="tabs" role="tablist" aria-label="기기 선택"><button class="tab" id="pc-tab" role="tab" aria-selected="true" aria-controls="pc-panel">💻 PC</button><button class="tab" id="mobile-tab" role="tab" aria-selected="false" aria-controls="mobile-panel">📱 모바일</button></nav>
-<section class="panel" id="pc-panel" role="tabpanel" aria-labelledby="pc-tab"><div class="section-head"><h2>PC 참여 방법</h2><span class="pill">총 4단계</span></div><div class="steps">
-<article class="step"><div class="step-copy"><span class="bubble">1</span><div><h3>게시 버튼 클릭</h3><p>QR코드를 스캔한 후<br><strong>오른쪽 하단의 게시 버튼</strong>을 클릭해 주세요.</p></div></div><div class="image-frame"><img src="images/pc-step1.jpg" alt="PC 1단계: 게시 버튼 클릭 화면"></div></article>
-<article class="step"><div class="step-copy"><span class="bubble">2</span><div><h3>칭찬 내용 작성 및 게시</h3><p>본인의 <strong>사번 / 이름</strong>을 작성한 후,<br>칭찬하고 싶은 직원의 <strong>팀 / 이름 / 칭찬 내용</strong>을 기재하고<br>게시 버튼을 눌러주세요.</p></div></div><div class="image-frame"><img src="images/pc-step2.jpg" alt="PC 2단계: 사번과 이름 및 칭찬 내용 작성 화면"></div></article>
-<article class="step"><div class="step-copy"><span class="bubble">3</span><div><h3>작성자 확인 후 완료</h3><p>본인의 <strong>사번 / 이름</strong>을 작성한 후 <strong>완료</strong> 버튼을 누르면 제출 완료!</p></div></div><div class="image-frame"><img src="images/pc-step3.jpg" alt="PC 3단계: 사번과 이름 입력 후 완료 화면"></div></article>
-<article class="step"><div class="step-copy"><span class="bubble">4</span><div><h3>공감되는 칭찬에 좋아요</h3><p>동료의 따뜻한 칭찬을 읽고<br>공감되는 게시물에 <strong>좋아요를 표시해 주세요!</strong> 💜</p></div></div><div class="image-frame"><img src="images/pc-step4.jpg" alt="PC 4단계: 좋아요 표시 화면"></div></article></div></section>
-<section class="panel" id="mobile-panel" role="tabpanel" aria-labelledby="mobile-tab" hidden><div class="section-head"><h2>모바일 참여 방법</h2><span class="pill">총 3단계</span></div><div class="steps">
-<article class="step"><div class="step-copy"><span class="bubble">1</span><div><h3>가운데 하단 + 버튼 클릭</h3><p>QR코드를 스캔한 후<br><strong>화면 가운데 하단의 + 버튼</strong>을 클릭해 주세요.</p></div></div><div class="image-frame"><img src="images/mobile-step1.jpg" alt="모바일 1단계: 화면 가운데 하단 플러스 버튼"></div></article>
-<article class="step"><div class="step-copy"><span class="bubble">2</span><div><h3>칭찬 내용 작성 및 게시</h3><p>본인의 <strong>사번 / 이름</strong>을 작성한 후,<br>칭찬하고 싶은 직원의 <strong>팀 / 이름 / 칭찬 내용</strong>을 기재해 주세요. 오른쪽 상단 <strong>게시</strong> 버튼을 누르면 제출 완료!</p></div></div><div class="image-frame"><img src="images/mobile-step2.jpg" alt="모바일 2단계: 칭찬 내용 작성 후 게시 버튼"></div></article>
-<article class="step"><div class="step-copy"><span class="bubble">3</span><div><h3>공감되는 칭찬에 좋아요</h3><p>동료의 따뜻한 칭찬을 읽고<br>공감되는 게시물에 <strong>좋아요를 표시해 주세요!</strong> 💜</p></div></div><div class="image-frame"><img src="images/pc-step4.jpg" alt="좋아요 표시 방법 참고 화면"></div></article></div></section>
-<div class="tip">💜 <strong>작은 칭찬 한마디가 큰 힘이 됩니다.</strong> 서로의 노고에 따뜻한 마음을 전해 주세요!</div><footer class="footer">Together With FedEx Korea! ♡<br>Dear Purple Campaign · 2026</footer></main>
-<script>const tabs=[document.getElementById('pc-tab'),document.getElementById('mobile-tab')],panels=[document.getElementById('pc-panel'),document.getElementById('mobile-panel')];tabs.forEach((tab,i)=>tab.addEventListener('click',()=>{tabs.forEach((t,j)=>t.setAttribute('aria-selected',String(i===j)));panels.forEach((p,j)=>p.hidden=i!==j)}));</script></body></html>
+
+<!-- 상단 탭 : Guide / PC / 모바일 -->
+<nav class="tabs" role="tablist" aria-label="기기 선택">
+
+<button class="tab"
+id="guide-tab"
+role="tab"
+aria-selected="false"
+aria-controls="guide-panel">
+📖 Guide
+</button>
+
+<button class="tab"
+id="pc-tab"
+role="tab"
+aria-selected="true"
+aria-controls="pc-panel">
+💻 PC
+</button>
+
+<button class="tab"
+id="mobile-tab"
+role="tab"
+aria-selected="false"
+aria-controls="mobile-panel">
+📱 모바일
+</button>
+
+</nav>
+
+<!-- Guide 탭 -->
+<section class="panel"
+id="guide-panel"
+role="tabpanel"
+aria-labelledby="guide-tab"
+hidden>
+
+<div class="section-head">
+<h2>Dear Purple Campaign Guide</h2>
+<span class="pill">캠페인 안내</span>
+</div>
+
+<div class="image-frame guide-image">
+<img
+src="images/dear-purple-guide.png"
+alt="Dear Purple 캠페인 안내 포스터">
+</div>
+
+</section>
+
+<!-- PC 안내 -->
+<section class="panel"
+id="pc-panel"
+role="tabpanel"
+aria-labelledby="pc-tab">
+
+<div class="section-head">
+<h2>PC 참여 방법</h2>
+<span class="pill">총 4단계</span>
+</div>
+
+<div class="steps">
+
+<article class="step">
+<div class="step-copy">
+<span class="bubble">1</span>
+<div>
+<h3>게시 버튼 클릭</h3>
+<p>
+QR코드를 스캔한 후<br>
+<strong>오른쪽 하단의 게시 버튼</strong>을 클릭해 주세요.
+</p>
+</div>
+</div>
+<div class="image-frame">
+<img src="images/pc-step1.jpg" alt="PC 1단계: 게시 버튼 클릭 화면">
+</div>
+</article>
+
+<article class="step">
+<div class="step-copy">
+<span class="bubble">2</span>
+<div>
+<h3>칭찬 내용 작성 및 게시</h3>
+<p>
+본인의 <strong>사번 / 이름</strong>을 작성한 후,<br>
+칭찬하고 싶은 직원의 <strong>팀 / 이름 / 칭찬 내용</strong>을 기재하고<br>
+게시 버튼을 눌러주세요.
+</p>
+</div>
+</div>
+<div class="image-frame">
+<img src="images/pc-step2.jpg" alt="PC 2단계: 사번과 이름 및 칭찬 내용 작성 화면">
+</div>
+</article>
+
+<article class="step">
+<div class="step-copy">
+<span class="bubble">3</span>
+<div>
+<h3>작성자 확인 후 완료</h3>
+<p>
+본인의 <strong>사번 / 이름</strong>을 작성한 후
+<strong>완료</strong> 버튼을 누르면 제출 완료!
+</p>
+</div>
+</div>
+<div class="image-frame">
+<img src="images/pc-step3.jpg" alt="PC 3단계: 사번과 이름 입력 후 완료 화면">
+</div>
+</article>
+
+<article class="step">
+<div class="step-copy">
+<span class="bubble">4</span>
+<div>
+<h3>공감되는 칭찬에 좋아요</h3>
+<p>
+동료의 따뜻한 칭찬을 읽고<br>
+공감되는 게시물에 <strong>좋아요를 표시해 주세요!</strong> 💜
+</p>
+</div>
+</div>
+<div class="image-frame">
+<img src="images/pc-step4.jpg" alt="PC 4단계: 좋아요 표시 화면">
+</div>
+</article>
+
+</div>
+</section>
+
+<!-- 모바일 안내 -->
+<section class="panel"
+id="mobile-panel"
+role="tabpanel"
+aria-labelledby="mobile-tab"
+hidden>
+
+<div class="section-head">
+<h2>모바일 참여 방법</h2>
+<span class="pill">총 3단계</span>
+</div>
+
+<div class="steps">
+
+<article class="step">
+<div class="step-copy">
+<span class="bubble">1</span>
+<div>
+<h3>가운데 하단 + 버튼 클릭</h3>
+<p>
+QR코드를 스캔한 후<br>
+<strong>화면 가운데 하단의 + 버튼</strong>을 클릭해 주세요.
+</p>
+</div>
+</div>
+<div class="image-frame">
+<img src="images/mobile-step1.jpg" alt="모바일 1단계: 화면 가운데 하단 플러스 버튼">
+</div>
+</article>
+
+<article class="step">
+<div class="step-copy">
+<span class="bubble">2</span>
+<div>
+<h3>칭찬 내용 작성 및 게시</h3>
+<p>
+본인의 <strong>사번 / 이름</strong>을 작성한 후,<br>
+칭찬하고 싶은 직원의 <strong>팀 / 이름 / 칭찬 내용</strong>을 기재해 주세요.
+오른쪽 상단 <strong>게시</strong> 버튼을 누르면 제출 완료!
+</p>
+</div>
+</div>
+<div class="image-frame">
+<img src="images/mobile-step2.jpg" alt="모바일 2단계: 칭찬 내용 작성 후 게시 버튼">
+</div>
+</article>
+
+<article class="step">
+<div class="step-copy">
+<span class="bubble">3</span>
+<div>
+<h3>공감되는 칭찬에 좋아요</h3>
+<p>
+동료의 따뜻한 칭찬을 읽고<br>
+공감되는 게시물에 <strong>좋아요를 표시해 주세요!</strong> 💜
+</p>
+</div>
+</div>
+<div class="image-frame">
+<img src="images/pc-step4.jpg" alt="좋아요 표시 방법 참고 화면">
+</div>
+</article>
+
+</div>
+</section>
+
+<div class="tip">
+💜 <strong>작은 칭찬 한마디가 큰 힘이 됩니다.</strong>
+서로의 노고에 따뜻한 마음을 전해 주세요!
+</div>
+
+<footer class="footer">
+Together With FedEx Korea! ♡<br>
+Dear Purple Campaign · 2026
+</footer>
+
+</main>
+
+<!-- 탭 전환 기능 -->
+<script>
+const tabs = [
+document.getElementById('guide-tab'),
+document.getElementById('pc-tab'),
+document.getElementById('mobile-tab')
+];
+
+const panels = [
+document.getElementById('guide-panel'),
+document.getElementById('pc-panel'),
+document.getElementById('mobile-panel')
+];
+
+tabs.forEach((tab,i)=>{
+tab.addEventListener('click',()=>{
+tabs.forEach((t,j)=>{
+t.setAttribute('aria-selected',String(i===j));
+});
+
+panels.forEach((p,j)=>{
+p.hidden = i !== j;
+});
+});
+});
+</script>
+
+</body>
+</html>
