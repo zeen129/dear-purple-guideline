@@ -341,7 +341,7 @@ width:100%
 <button class="tab"
 id="guide-tab"
 role="tab"
-aria-selected="false"
+aria-selected="true"
 aria-controls="guide-panel">
 📖 Guide
 </button>
@@ -349,7 +349,7 @@ aria-controls="guide-panel">
 <button class="tab"
 id="pc-tab"
 role="tab"
-aria-selected="true"
+aria-selected="false"
 aria-controls="pc-panel">
 💻 PC
 </button>
@@ -364,12 +364,11 @@ aria-controls="mobile-panel">
 
 </nav>
 
-<!-- Guide 탭 -->
+<!-- Guide 탭 (첫 화면 기본 표시) -->
 <section class="panel"
 id="guide-panel"
 role="tabpanel"
-aria-labelledby="guide-tab"
-hidden>
+aria-labelledby="guide-tab">
 
 <div class="section-head">
 <h2>Dear Purple Campaign Guide</h2>
@@ -388,8 +387,9 @@ alt="Dear Purple 캠페인 안내 포스터">
 <section class="panel"
 id="pc-panel"
 role="tabpanel"
-aria-labelledby="pc-tab">
-
+aria-labelledby="pc-tab"
+hidden>
+  
 <div class="section-head">
 <h2>PC 참여 방법</h2>
 <span class="pill">총 4단계</span>
